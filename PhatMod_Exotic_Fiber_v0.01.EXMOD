@@ -1,0 +1,135 @@
+{
+        "name": "PhatMod_Exotic_Fiber",
+        "author": "Phatlix",
+        "version": "0.01",
+        "description": "Use Exotic for BioFuel and Fiber for Fertilizer.",
+        "fileName": "PhatMod_Exotic_Fiber_v0.01",
+        "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+        "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+        "Level2": "True",
+        "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "Defaults": {
+                "bForceDisableRecipe": false,
+                "Requirement": {
+                    "RowName": "None",
+                    "DataTableName": "D_Talents"
+                },
+                "SessionRequirement": {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "None"
+                },
+                "CharacterRequirement": {
+                    "RowName": "None",
+                    "DataTableName": "D_CharacterFlags"
+                },
+                "RequiredMillijoules": 5000,
+                "RecipeSets": [],
+                "ResourceCostMultipliers": [],
+                "Inputs": [
+                    {
+                        "Element": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemsStatic"
+                        },
+                        "Count": 1,
+                        "DynamicProperties": []
+                    }
+                ],
+                "ResourceInputs": [],
+                "Outputs": [
+                    {
+                        "Element": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        "Count": 1,
+                        "DynamicProperties": []
+                    }
+                ],
+                "ResourceOutputs": [],
+                "Refundable": "Inherit",
+                "ExperienceMultiplier": 1,
+                "Audio": {
+                    "RowName": "None",
+                    "DataTableName": "D_CraftingAudioData"
+                }
+            },
+            "File_Items": [
+                {
+                    "Name": "Alternate_Fertilizer",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter_Wood",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 40,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Basic_Fertilizer",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "WoodComposter"
+                    }
+                },
+                {
+                    "Name": "Biofuel_Exotic",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "MetaResource",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Paste_Oxygen_Buff",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [],
+                    "ResourceOutputs": [
+                        {
+                            "Type": "Fuel",
+                            "RequiredUnits": 2500
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Composter"
+                    }
+                }
+			]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
