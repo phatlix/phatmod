@@ -1,4 +1,4 @@
-__PhatMods (Icarus)__
+__PhatMod (Icarus)__
 
 Just pulling out some parts and peices that I would like,
 in addition to some other mods.

@@ -1,0 +1,16 @@
+{
+  "mods": [
+    {
+      "name": "PhatMod_Exotic_Fiber",
+      "author": "Phatlix",
+      "version": "0.01",
+      "compatibility": "w78",
+      "description": "Use Exotic for BioFuel and Fiber for Basic Fertilizer.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_Fiber_v0.01_P.pak"
+      }
+    }
+   ]
+ }
