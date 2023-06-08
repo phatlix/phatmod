@@ -3,8 +3,6 @@ __PhatMods (Icarus)__
 Just pulling out some parts and peices that I would like,
 in addition to some other mods.
 
-> NOTE:
-
 __D_ProcessorRecipes.json__
 
         - Use Exotics to create BioFuel
