@@ -3,11 +3,11 @@ __PhatMod (Icarus)__
 Just pulling out some parts and peices that I would like,
 in addition to some other mods.
 
-__Exotic_BioFuel
+__Exotic_BioFuel__
 
         - Use Exotics to create BioFuel
 
-__Fiber_Fertilizer
+__Fiber_Fertilizer__
 
         - Use Fiber to create Basic Fertilizer
 
