@@ -3,9 +3,12 @@ __PhatMod (Icarus)__
 Just pulling out some parts and peices that I would like,
 in addition to some other mods.
 
-__D_ProcessorRecipes.json__
+__Exotic_BioFuel
 
         - Use Exotics to create BioFuel
+
+__Fiber_Fertilizer
+
         - Use Fiber to create Basic Fertilizer
 
 

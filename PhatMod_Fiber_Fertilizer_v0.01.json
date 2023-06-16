@@ -1,9 +1,9 @@
 {
-        "name": "PhatMod_Exotic_Fiber",
+        "name": "PhatMod_Fiber_Fertilizer_v0.01",
         "author": "Phatlix",
         "version": "0.01",
-        "description": "Use Exotic for BioFuel and Fiber for Fertilizer.",
-        "fileName": "PhatMod_Exotic_Fiber_v0.01",
+        "description": "Use Fiber for Fertilizer.",
+        "fileName": "PhatMod_Fiber_Fertilizer_v0.01",
         "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
         "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
         "Level2": "True",
@@ -24,7 +24,7 @@
                     "RowName": "None",
                     "DataTableName": "D_CharacterFlags"
                 },
-                "RequiredMillijoules": 5000,
+                "RequiredMillijoules": 800,
                 "RecipeSets": [],
                 "ResourceCostMultipliers": [],
                 "Inputs": [
@@ -59,6 +59,7 @@
             "File_Items": [
                 {
                     "Name": "Alternate_Fertilizer",
+					"RequiredMillijoules": 800,
                     "RecipeSets": [
                         {
                             "RowName": "Composter_Wood",
@@ -71,7 +72,7 @@
                                 "RowName": "Fiber",
                                 "DataTableName": "D_ItemsStatic"
                             },
-                            "Count": 40,
+                            "Count": 10,
                             "DynamicProperties": []
                         }
                     ],
@@ -89,43 +90,94 @@
                         "RowName": "WoodComposter"
                     }
                 },
-                {
-                    "Name": "Biofuel_Exotic",
-                    "RecipeSets": [
-                        {
-                            "RowName": "Composter",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "MetaResource",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5,
-                            "DynamicProperties": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Paste_Oxygen_Buff",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1,
-                            "DynamicProperties": []
-                        }
-                    ],
-                    "Outputs": [],
-                    "ResourceOutputs": [
-                        {
-                            "Type": "Fuel",
-                            "RequiredUnits": 2500
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "Composter"
-                    }
-                }
+				{
+					"Name": "Yield_Fertilizer",
+					"RequiredMillijoules": 800,
+					"Requirement": {
+						"RowName": "Yield_Fertilizer"
+					},
+					"RecipeSets": [
+						{
+							"RowName": "Chemistry_Bench",
+							"DataTableName": "D_RecipeSets"
+						}
+					],
+					"Inputs": [
+						{
+							"Element": {
+								"RowName": "Basic_Fertilizer",
+								"DataTableName": "D_ItemsStatic"
+							},
+							"Count": 1,
+							"DynamicProperties": []
+						},
+						{
+							"Element": {
+								"RowName": "Sulfur",
+								"DataTableName": "D_ItemsStatic"
+							},
+							"Count": 1,
+							"DynamicProperties": []
+						}
+					],
+					"Outputs": [
+						{
+							"Element": {
+								"RowName": "Yield_Fertilizer",
+								"DataTableName": "D_ItemTemplate"
+							},
+							"Count": 1,
+							"DynamicProperties": []
+						}
+					],
+					"Audio": {
+						"RowName": "Glassbench"
+					}
+				},
+				{
+					"Name": "Speed_Fertilizer",
+					"RequiredMillijoules": 800,
+					"Requirement": {
+						"RowName": "Growth_Fertilizer"
+					},
+					"RecipeSets": [
+						{
+							"RowName": "Chemistry_Bench",
+							"DataTableName": "D_RecipeSets"
+						}
+					],
+					"Inputs": [
+						{
+							"Element": {
+								"RowName": "Basic_Fertilizer",
+								"DataTableName": "D_ItemsStatic"
+							},
+							"Count": 1,
+							"DynamicProperties": []
+						},
+						{
+							"Element": {
+								"RowName": "Silica",
+								"DataTableName": "D_ItemsStatic"
+							},
+							"Count": 1,
+							"DynamicProperties": []
+						}
+					],
+					"Outputs": [
+						{
+							"Element": {
+								"RowName": "Speed_Fertilizer",
+								"DataTableName": "D_ItemTemplate"
+							},
+							"Count": 1,
+							"DynamicProperties": []
+						}
+					],
+					"Audio": {
+						"RowName": "Glassbench"
+					}
+				}
 			]
         },
         {

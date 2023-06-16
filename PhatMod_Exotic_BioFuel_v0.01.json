@@ -1,0 +1,96 @@
+{
+        "name": "PhatMod_Exotic_BioFuel",
+        "author": "Phatlix",
+        "version": "0.01",
+        "description": "Use Exotic for BioFuel.",
+        "fileName": "PhatMod_Exotic_BioFuel_v0.01",
+        "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+        "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+        "Level2": "True",
+        "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "Defaults": {
+                "bForceDisableRecipe": false,
+                "Requirement": {
+                    "RowName": "None",
+                    "DataTableName": "D_Talents"
+                },
+                "SessionRequirement": {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "None"
+                },
+                "CharacterRequirement": {
+                    "RowName": "None",
+                    "DataTableName": "D_CharacterFlags"
+                },
+                "RequiredMillijoules": 800,
+                "RecipeSets": [],
+                "ResourceCostMultipliers": [],
+                "Inputs": [
+                    {
+                        "Element": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemsStatic"
+                        },
+                        "Count": 1,
+                        "DynamicProperties": []
+                    }
+                ],
+                "ResourceInputs": [],
+                "Outputs": [
+                    {
+                        "Element": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        "Count": 1,
+                        "DynamicProperties": []
+                    }
+                ],
+                "ResourceOutputs": [],
+                "Refundable": "Inherit",
+                "ExperienceMultiplier": 1,
+                "Audio": {
+                    "RowName": "None",
+                    "DataTableName": "D_CraftingAudioData"
+                }
+            },
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Exotic",
+					"RequiredMillijoules": 800,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "MetaResource",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [],
+                    "ResourceOutputs": [
+                        {
+                            "Type": "Fuel",
+                            "RequiredUnits": 2500
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Composter"
+                    }
+                }
+			]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}

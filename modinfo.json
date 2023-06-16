@@ -1,16 +1,29 @@
 {
   "mods": [
     {
-      "name": "PhatMod_Exotic_Fiber",
+      "name": "PhatMod_Exotic_BioFuel",
       "author": "Phatlix",
       "version": "0.01",
-      "compatibility": "w78",
-      "description": "Use Exotic for BioFuel and Fiber for Basic Fertilizer.",
+      "compatibility": "w80",
+      "description": "Use Exotic for BioFuel.",
       "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
       "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
       "files": {
-          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_Fiber_v0.01_P.pak"
-          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_Fiber_v0.01_.EXMODZ"
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel_v0.01_P.pak"
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel_v0.01_.EXMODZ"
+      }
+    },
+    {
+      "name": "PhatMod_Fiber_Fertilizer",
+      "author": "Phatlix",
+      "version": "0.01",
+      "compatibility": "w80",
+      "description": "Use Fiber for Fertilizer.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Fiber_Fertilizer_v0.01_P.pak"
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Fiber_Fertilizer_v0.01_.EXMODZ"
       }
     }
    ]
