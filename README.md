@@ -8,7 +8,7 @@ MODS LIST:
 ----------
 
 <dl>
-    <dt style="color:red">All Cotton</dt>
+    <span style="color:red"><dt>All Cotton</dt></span>
     <dd>Underwear with that MeUndies feel.  <i>(Inaris 'Lua' Envirosuit)</i></dd>
 </dl>
 
