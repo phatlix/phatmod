@@ -7,10 +7,10 @@ in addition to some other mods.
 MODS LIST:
 ----------
 
-###   All Cotton
+#### All Cotton
 
-   Underwear with that MeUndies feel.  
-   *Inaris 'Lua' Envirosuit*  
+      Underwear with that MeUndies feel.  
+      *Inaris 'Lua' Envirosuit*  
 
 
 DISCLAIMER:
