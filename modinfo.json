@@ -1,0 +1,17 @@
+{
+  "mods": [
+    {
+      "name": "PhatMod: All Cotton",
+      "author": "Phatlix",
+      "version": "0.1",
+      "compatibility": "All",
+      "description": "Underwear with that MeUndies feel.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton_P.pak",
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton.EXMODZ"
+      }
+    }
+   ]
+ }
