@@ -11,6 +11,30 @@
       "files": {
           "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton_P.pak",
           "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton.EXMODZ"
+      },
+    {
+      "name": "PhatMod: Exotic BioFuel",
+      "author": "Phatlix",
+      "version": "0.1",
+      "compatibility": "All",
+      "description": "Those pretty rocks can be squeezed into a fragrant fuel.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel_P.pak",
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel.EXMODZ"
+      },
+    {
+      "name": "PhatMod: Fiber Fertilizer",
+      "author": "Phatlix",
+      "version": "0.1",
+      "compatibility": "All",
+      "description": "Fast friendly fiber fertilizer for the farm.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Fiber_Fertilizer_P.pak",
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Fiber_Fertilizer.EXMODZ"
       }
     }
    ]

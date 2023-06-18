@@ -11,9 +11,16 @@ MODS LIST:
 
 <dl>
   <dt>All Cotton</dt>
-    <dd>Underwear with that MeUndies feel.  </br><i>(Inaris 'Lua' Envirosuit)</i></dd>
-</dl>
-
+    <dd>Underwear with that MeUndies feel.</dd>
+</dl>  
+<dl>
+  <dt>Exotic Biofuel</dt>
+    <dd>Those pretty rocks can be squeezed into a fragrant fuel.</dd>
+</dl>  
+<dl>
+  <dt>Fiber Fertilizer</dt>
+    <dd>Fast friendly fiber fertilizer for the farm.</dd>
+</dl>  
 
 
 DISCLAIMER:
