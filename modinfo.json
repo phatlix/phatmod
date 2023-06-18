@@ -1,6 +1,6 @@
 {
   "mods": [
-    {
+   {
       "name": "PhatMod: All Cotton",
       "author": "Phatlix",
       "version": "0.1",
@@ -11,7 +11,8 @@
       "files": {
           "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton_P.pak",
           "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton.EXMODZ"
-      },
+      }
+    },
     {
       "name": "PhatMod: Exotic BioFuel",
       "author": "Phatlix",
@@ -23,7 +24,8 @@
       "files": {
           "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel_P.pak",
           "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel.EXMODZ"
-      },
+      }
+    },
     {
       "name": "PhatMod: Fiber Fertilizer",
       "author": "Phatlix",
