@@ -1,10 +1,12 @@
 PHATMOD (Icarus)
 ================
 
-Just pulling out some parts and peices that I would like, in addition to some other mods.  
-
-
-
+Just tweaking some bits here and there. We have put some hours into this game  
+and some things steal from the joy after doing them over and over again.  
+I really appreciate the fact that with a little effort, we don't have to.
+  
+  
+  
 MODS LIST:
 ----------
 
@@ -20,9 +22,9 @@ MODS LIST:
   <dt>Fiber Fertilizer</dt>
     <dd>Fast friendly fiber fertilizer for the farm.</dd>
 </dl>  
-
-
-
+  
+  
+  
 DISCLAIMER:
 -----------
 
