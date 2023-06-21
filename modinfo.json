@@ -1,6 +1,6 @@
 {
   "mods": [
-    {
+   {
       "name": "PhatMod: All Cotton",
       "author": "Phatlix",
       "version": "0.1",
@@ -11,7 +11,8 @@
       "files": {
           "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton_P.pak",
           "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_All_Cotton.EXMODZ"
-      },
+      }
+    },
     {
       "name": "PhatMod: Exotic BioFuel",
       "author": "Phatlix",
@@ -23,7 +24,8 @@
       "files": {
           "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel_P.pak",
           "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Exotic_BioFuel.EXMODZ"
-      },
+      }
+    },
     {
       "name": "PhatMod: Fiber Fertilizer",
       "author": "Phatlix",
@@ -36,6 +38,45 @@
           "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Fiber_Fertilizer_P.pak",
           "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Fiber_Fertilizer.EXMODZ"
       }
+    },
+	{
+      "name": "PhatMod: Dropship 50 and Full",
+      "author": "Phatlix",
+      "version": "0.1",
+      "compatibility": "All",
+      "description": "You only get one shot, so lets bring the kitchen sink.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Drop50_and_Full_P.pak",
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Drop50_and_Full.EXMODZ"
+      }
+    },
+    {
+      "name": "PhatMod: Rifle Early",
+      "author": "Phatlix",
+      "version": "0.2",
+      "compatibility": "All",
+      "description": "I want to kill things right now, please.",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Rifle_Early_P.pak",
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Rifle_Early.EXMODZ"
+      }
+    },
+    {
+      "name": "PhatMod: Power Upgrade",
+      "author": "Phatlix",
+      "version": "0.1",
+      "compatibility": "All",
+      "description": "How about we not worry about more power right now.  Cool?",
+      "imageURL": "https://github.com/phatlix/phatmod/raw/main/pl.png",
+      "readmeURL": "https://raw.githubusercontent.com/phatlix/phatmod/main/README.md",
+      "files": {
+          "pak": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Power_Upgrade_P.pak",
+          "exmodz": "https://github.com/phatlix/phatmod/raw/main/PhatMod_Power_Upgrade.EXMODZ"
+      }
     }
-   ]
- }
+    ]
+}
