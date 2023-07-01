@@ -38,6 +38,14 @@ MODS LIST:
   <dt>Sleep Upgrades</dt>
     <dd>One go to bed with itchy butt... wake up, smelly finga. ~ Confucius</dd>
 </dl>  
+<dl>
+  <dt>Speed Craft</dt>
+    <dd>Oh, for the love...  lets go already!</dd>
+</dl>  
+<dl>
+  <dt>Stacks</dt>
+    <dd>Well, what big pockets you have.</dd>
+</dl>  
   
   
   
