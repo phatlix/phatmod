@@ -44,7 +44,7 @@ MODS LIST:
 </dl>  
 <dl>
   <dt>Stacks</dt>
-    <dd>Well, what big pockets you have.</dd>
+    <dd>Well, how's too much sound?</dd>
 </dl>  
   
   
